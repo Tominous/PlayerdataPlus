@@ -82,11 +82,11 @@ public class DataHandler {
             }
             ConfigHandler.getLogger().sendLog("", false);
         }
-        /*
+        
         if (!zipFiles(ConfigHandler.getLogger().getFile().getPath(), backupFile.getName())) {
             ServerHandler.sendConsoleMessage("&Log: &Compression the log &8\"&e" + backupFile.getName() + "&8\"  &c✘");
         }
-        */
+        
         return true;
     }
 
