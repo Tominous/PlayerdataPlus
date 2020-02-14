@@ -192,7 +192,7 @@ public class PurgeHandler {
                             }
                         }
                         break;
-                        /*
+                        
                     case "LuckPerms":
                         if (ConfigHandler.getDepends().getVault().vaultEnabled()) {
                             if (ConfigHandler.getDepends().SkinsRestorerEnabled()) {
@@ -217,7 +217,7 @@ public class PurgeHandler {
                                 }
                             }
                         }
-                        break;*/
+                        break;
                     default:
                         break;
                 }
