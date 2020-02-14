@@ -46,7 +46,7 @@ public class ConfigHandler {
                     purgeHandler.startClean();
                 }
             }.runTaskLater(PlayerdataPlus.getInstance(), delay);
-        } /* else if (!reload && getConfig("config.yml").getBoolean("Clean.Settings.Schedule.Enable")) {
+        }  else if (!reload && getConfig("config.yml").getBoolean("Clean.Settings.Schedule.Enable")) {
             BukkitScheduler scheduler = getServer().getScheduler();
             scheduler.scheduleSyncDelayedTask(PlayerdataPlus.getInstance(),
                     new BukkitRunnable() {
@@ -58,7 +58,7 @@ public class ConfigHandler {
                         }
                     }, 200);
         }
-        */
+        
     }
 
     public static void registerEvents() {
